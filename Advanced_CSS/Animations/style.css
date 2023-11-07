@@ -1,0 +1,24 @@
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.heading-1 {
+    animation: slideInLeft 1s ease-in;
+
+
+    /* animation-name: slideInLeft ;  
+    animation-duration: 1s;
+    animation-timing-function: ease-in ;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-fill-mode: none; */
+
+    transform: translateX(-150px);
+}
