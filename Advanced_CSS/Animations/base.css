@@ -1,5 +1,6 @@
 .heading-1 {
-    display: flex;
+    display:block;
+    align-items: center;
     justify-content: center;
-    margin-top: 400px;
+    margin: auto;
 }
